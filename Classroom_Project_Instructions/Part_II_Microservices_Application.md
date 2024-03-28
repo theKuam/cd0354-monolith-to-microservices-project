@@ -59,7 +59,7 @@ WORKDIR /usr/src/app
 # Install app dependencies
 
 COPY package*.json ./
-RUN npm ci 
+RUN npm@5 ci 
 # Bundle app source
 COPY . .
 EXPOSE 8080
