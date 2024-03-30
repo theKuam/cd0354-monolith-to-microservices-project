@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: udagram-reverseproxy
-          image: kuam/reverseproxy:v4
+          image: kuam/reverseproxy:v7
           imagePullPolicy: Always
           ports:
             - containerPort: 80

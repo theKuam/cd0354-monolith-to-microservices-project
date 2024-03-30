@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: udagram-api-user
-          image: kuam/udagram-api-user:v4
+          image: kuam/udagram-api-user:v7
           imagePullPolicy: Always
           ports:
             - containerPort: 80
