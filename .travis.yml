@@ -1,19 +1,19 @@
 
-language: node_js
-node_js:
-  - 14
+# language: node_js
+# node_js:
+#   - 14
 
-services:
-  - docker
+# services:
+#   - docker
 
-# Pre-testing installs
-before_script: []
+# # Pre-testing installs
+# before_script: []
 
-script:
+# script:
 
-  - docker build -t udagram-frontend ./udagram-frontend
-  - docker tag udagram-frontend kuam/udagram-frontend:v8
+#   - docker build -t udagram-frontend ./udagram-frontend
+#   - docker tag udagram-frontend kuam/udagram-frontend:v8
 
-after_success:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push kuam/udagram-frontend:v8
+# after_success:
+#   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+#   - docker push kuam/udagram-frontend:v8

@@ -1,0 +1,13 @@
+ngominhhai@Ngos-Air project_3 % kubectl get pods
+NAME                                    READY   STATUS    RESTARTS        AGE
+udagram-api-feed-5c59895457-hvddk       1/1     Running   3 (3m3s ago)    12m
+udagram-api-feed-5c59895457-xjbjl       1/1     Running   3 (2m23s ago)   12m
+udagram-api-user-6f7655dc46-2lp87       1/1     Running   3 (2m36s ago)   11m
+udagram-api-user-6f7655dc46-7g6jk       1/1     Running   3 (2m2s ago)    11m
+udagram-api-user-6f7655dc46-thl2x       1/1     Running   3 (2m51s ago)   12m
+udagram-api-user-6f7655dc46-xkf2w       1/1     Running   3 (2m25s ago)   12m
+udagram-api-user-6f7655dc46-zqt4n       1/1     Running   3 (2m25s ago)   12m
+udagram-frontend-5c8fd78dc-vqkmv        1/1     Running   0               101s
+udagram-frontend-5c8fd78dc-z9cmz        1/1     Running   0               101s
+udagram-reverseproxy-58cfdfd969-dqfqc   1/1     Running   0               12m
+udagram-reverseproxy-58cfdfd969-pxzps   1/1     Running   0               12m
